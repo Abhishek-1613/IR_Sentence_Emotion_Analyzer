@@ -1,8 +1,9 @@
 # IR_Sentence_Emotion_Analyzer
-# Sentence Emotion Analyzer
 
 ## Overview
 This project aims to detect emotions from sentences using advanced machine learning models. Both LSTM and BERT models are implemented, with BERT showing superior performance in emotion detection.
+## Libraries used: Pandas, Numpy, PyTorch, Keras, Tensorflow, Transformers, Gensim, Matplolib, Sklearn Seaborn, Nltk, Wandb
+(You should install the above libraries in your notebook(Google Collab, vs-code, etc.))
 
 ## Features
 - Implementation of LSTM and BERT models for emotion detection.
@@ -15,6 +16,9 @@ This project aims to detect emotions from sentences using advanced machine learn
     git clone https://github.com/Abhishek-1613/IR_Sentence_Emotion_Analyzer.git
     cd Sentence-Emotion-Analyzer-Webapp-main
     ```
+2. Install all necessary libraries
+
+
 
 ![improved_promp2](https://github.com/Abhishek-1613/IR_Sentence_Emotion_Analyzer/assets/89321714/8a308b5e-7f9c-4c87-891a-759418157b33)
 
@@ -50,12 +54,12 @@ Run the app.py file, which starts the project.
 
 project will load the web browser. Click on the 'Try IT' part on the navigation base to test the project using user input.
 
-the project expects one user to tweet as input and click on the Analyze button after that.
+the project expects one user to tweet as input and click on the Analyze button afterward.
 
 model gives a prediction of emotion on a new page where we can see the original tweet with its predicted emotion.
 
 
 ## Results
-The project provides a comparison between LSTM and BERT models for emotion detection, highlighting BERT's superior performance.
+The project compares LSTM and BERT models for emotion detection, highlighting BERT's superior performance.
 
-user can try again with differnt input for detecting emotion.
+Users can try again with different inputs to detect emotion.
